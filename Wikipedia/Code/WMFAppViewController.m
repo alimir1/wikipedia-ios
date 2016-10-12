@@ -130,7 +130,7 @@ static NSTimeInterval const WMFTimeBeforeRefreshingExploreScreen = 24 * 60 * 60;
 }
 
 - (BOOL)isPresentingOnboarding {
-    return [self.presentedViewController isKindOfClass:[WMFWelcomeViewController class]];
+    return [self.presentedViewController isKindOfClass:[WMFWelcomePageViewController class]];
 }
 
 - (BOOL)uiIsLoaded {
@@ -700,7 +700,7 @@ static NSString *const WMFDidShowOnboarding = @"DidShowOnboarding5.0";
 
 - (void)presentOnboardingIfNeededWithCompletion:(void (^)(BOOL didShowOnboarding))completion {
     if ([self shouldShowOnboarding]) {
-        WMFWelcomeViewController *vc = [WMFWelcomeViewController welcomeViewControllerFromDefaultStoryBoard];
+        WMFWelcomePageViewController *vc = [WMFWelcomePageViewController wmf_viewControllerWithIdentifier:@"WMFWelcomePageViewController" fromStoryboardNamed:@"WMFWelcome"];
         vc.completionBlock = ^{
             [self setDidShowOnboarding];
             if (completion) {
