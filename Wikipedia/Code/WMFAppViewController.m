@@ -31,7 +31,6 @@
 #import "WMFSearchViewController.h"
 #import "WMFHistoryTableViewController.h"
 #import "WMFSavedArticleTableViewController.h"
-#import "WMFWelcomeViewController.h"
 #import "UIViewController+WMFArticlePresentation.h"
 #import "WMFNearbyListViewController.h"
 #import "UIViewController+WMFSearch.h"

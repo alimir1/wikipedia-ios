@@ -30,8 +30,6 @@
 		0E26B0811C0F4F720004D687 /* WMFWelcomeIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26B0781C0F4F720004D687 /* WMFWelcomeIntroductionViewController.m */; };
 		0E26B0821C0F4F720004D687 /* WMFWelcomeLanguageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26B07A1C0F4F720004D687 /* WMFWelcomeLanguageTableViewCell.m */; };
 		0E26B0831C0F4F720004D687 /* WMFWelcomeLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26B07C1C0F4F720004D687 /* WMFWelcomeLanguageViewController.m */; };
-		0E26B0841C0F4F720004D687 /* WMFWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26B07E1C0F4F720004D687 /* WMFWelcomeViewController.m */; };
-		0E26B0871C0FD5170004D687 /* WMFBoringNavigationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26B0861C0FD5170004D687 /* WMFBoringNavigationTransition.m */; };
 		0E2927941CD1220D00FD8DA8 /* WMFLeadingImageTrailingTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2927931CD1220D00FD8DA8 /* WMFLeadingImageTrailingTextButton.m */; };
 		0E3268BC1C52A91000131F5F /* WMFCompassViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3268BB1C52A91000131F5F /* WMFCompassViewModel.m */; };
 		0E3268BF1C52C35900131F5F /* WMFNearbyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3268BE1C52C35900131F5F /* WMFNearbyListViewController.m */; };
@@ -1045,10 +1043,6 @@
 		0E26B07A1C0F4F720004D687 /* WMFWelcomeLanguageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFWelcomeLanguageTableViewCell.m; path = Wikipedia/Code/WMFWelcomeLanguageTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		0E26B07B1C0F4F720004D687 /* WMFWelcomeLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFWelcomeLanguageViewController.h; path = Wikipedia/Code/WMFWelcomeLanguageViewController.h; sourceTree = SOURCE_ROOT; };
 		0E26B07C1C0F4F720004D687 /* WMFWelcomeLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFWelcomeLanguageViewController.m; path = Wikipedia/Code/WMFWelcomeLanguageViewController.m; sourceTree = SOURCE_ROOT; };
-		0E26B07D1C0F4F720004D687 /* WMFWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFWelcomeViewController.h; path = Wikipedia/Code/WMFWelcomeViewController.h; sourceTree = SOURCE_ROOT; };
-		0E26B07E1C0F4F720004D687 /* WMFWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFWelcomeViewController.m; path = Wikipedia/Code/WMFWelcomeViewController.m; sourceTree = SOURCE_ROOT; };
-		0E26B0851C0FD5170004D687 /* WMFBoringNavigationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFBoringNavigationTransition.h; path = Wikipedia/Code/WMFBoringNavigationTransition.h; sourceTree = SOURCE_ROOT; };
-		0E26B0861C0FD5170004D687 /* WMFBoringNavigationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFBoringNavigationTransition.m; path = Wikipedia/Code/WMFBoringNavigationTransition.m; sourceTree = SOURCE_ROOT; };
 		0E2927921CD1220D00FD8DA8 /* WMFLeadingImageTrailingTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFLeadingImageTrailingTextButton.h; sourceTree = "<group>"; };
 		0E2927931CD1220D00FD8DA8 /* WMFLeadingImageTrailingTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFLeadingImageTrailingTextButton.m; sourceTree = "<group>"; };
 		0E3268BA1C52A91000131F5F /* WMFCompassViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFCompassViewModel.h; path = Wikipedia/Code/WMFCompassViewModel.h; sourceTree = SOURCE_ROOT; };
@@ -3026,10 +3020,6 @@
 		0E26B0881C0FD7E00004D687 /* Container */ = {
 			isa = PBXGroup;
 			children = (
-				0E26B0851C0FD5170004D687 /* WMFBoringNavigationTransition.h */,
-				0E26B0861C0FD5170004D687 /* WMFBoringNavigationTransition.m */,
-				0E26B07D1C0F4F720004D687 /* WMFWelcomeViewController.h */,
-				0E26B07E1C0F4F720004D687 /* WMFWelcomeViewController.m */,
 				B083371D1DADB251002860D2 /* WMFWelcomePageViewController.swift */,
 			);
 			name = Container;
@@ -7320,7 +7310,6 @@
 				B0E804BA1C0CE0B40065EBC0 /* BITHockeyManager+WMFExtensions.m in Sources */,
 				D84692E01D5E1E3F000A7058 /* WMFTableOfContentsHeader.swift in Sources */,
 				B0E8070A1C0CEBDA0065EBC0 /* WMFShareCardImageContainer.m in Sources */,
-				0E26B0841C0F4F720004D687 /* WMFWelcomeViewController.m in Sources */,
 				B0E8054B1C0CE0DC0065EBC0 /* UILabel+WMFStyling.m in Sources */,
 				0EE489031D4ADCA00088505C /* UITableViewController+WMFScrollToTop.swift in Sources */,
 				B0E804471C0CDF850065EBC0 /* WMFBorderButton.m in Sources */,
@@ -7399,7 +7388,6 @@
 				B0E8073E1C0CED810065EBC0 /* WMFLogFormatter.m in Sources */,
 				0E61C4881CD00984000B11B3 /* WMFHelpViewController.m in Sources */,
 				B0E804DA1C0CE0B40065EBC0 /* NSString+FormattedAttributedString.m in Sources */,
-				0E26B0871C0FD5170004D687 /* WMFBoringNavigationTransition.m in Sources */,
 				D8C0C00B1D144FF30019374D /* WMFProxyServer.m in Sources */,
 				B063DE601C63FEE9002F2EDE /* UIToolbar+WMFStyling.m in Sources */,
 				D81BA0FB1D50D40B006C38AC /* WMFNearbyArticleTableViewCell.m in Sources */,
