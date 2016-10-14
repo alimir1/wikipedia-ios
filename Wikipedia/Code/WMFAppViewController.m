@@ -709,6 +709,7 @@ static NSString *const WMFDidShowOnboarding = @"DidShowOnboarding5.0";
             vc.popoverPresentationController.canOverlapSourceViewRect = YES;
             vc.popoverPresentationController.permittedArrowDirections = 0;
         }
+        vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         
         vc.completionBlock = ^{
             [self setDidShowOnboarding];
@@ -716,7 +717,7 @@ static NSString *const WMFDidShowOnboarding = @"DidShowOnboarding5.0";
                 completion(YES);
             }
         };
-        [self presentViewController:vc animated:NO completion:NULL];
+        [self presentViewController:vc animated:YES completion:NULL];
     } else {
         if (completion) {
             completion(NO);
